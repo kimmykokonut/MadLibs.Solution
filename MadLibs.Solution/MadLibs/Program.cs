@@ -14,7 +14,7 @@ namespace MadLibs
       WebApplication app = builder.Build();
 
       app.UseHttpsRedirection();
-
+      app.UseStaticFiles(); //for img
       app.UseRouting();
 
       app.MapControllerRoute(
