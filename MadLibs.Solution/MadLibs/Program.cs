@@ -13,7 +13,6 @@ namespace MadLibs
 
       WebApplication app = builder.Build();
 
-      // app.UseDeveloperExceptionPage();
       app.UseHttpsRedirection();
 
       app.UseRouting();
